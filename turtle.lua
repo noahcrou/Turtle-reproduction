@@ -1,6 +1,7 @@
-isBlock, data = turtle.inspect();
+isBlock, data = turtle.inspect()
 
 if (data['state']['age'] == 7) then
-    turtle.dig();
+    turtle.dig()
 else
-    print('is not ready');
+    print('is not ready')
+end
